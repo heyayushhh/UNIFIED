@@ -1,6 +1,6 @@
-# 🎓 Machine Learning Internship Projects (CDAC Noida)
+# 🎓 Machine Learning Internship Projects (Unified Gurugram)
 
-This repository contains three practical Machine Learning projects completed during a hands-on internship. Each project involves real-world datasets and covers data cleaning, visualization, and predictive modeling using Python and Colab.
+This repository contains three practical Machine Learning projects completed during a hands-on internship at Unified Gurugram. Each project involves real-world datasets and covers data cleaning, visualization, and predictive modeling using Python and Google Colab.
 
 ---
 
