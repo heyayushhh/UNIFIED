@@ -4,69 +4,60 @@ This repository contains three practical Machine Learning projects completed dur
 
 ---
 
-## 📁 Project 1: Instagram Fake, Spammer & Genuine Account Detection
+## 🔶 Project 1: Netflix Data – Cleaning, Analysis & Visualization
 
-**Objective**: Detect whether an Instagram account is fake, spam, or genuine using profile metadata.
+**🎯 Objective**  
+Explore, clean, and visualize Netflix content data to uncover insights about content trends, popular genres, and production countries.
 
-### Key Steps:
-- Data loading and preprocessing
-- Feature engineering and selection
-- Data visualization (histograms, scatterplots, etc.)
-- Training ML models for multi-class classification
+**📌 Key Features**
+- Data cleaning (handling nulls and duplicates)
+- Feature extraction (release year, duration types)
+- Content filtering by country, type, and release year
+- Visualizations: bar charts, word clouds, heatmaps
 
-### Models Used:
-- Logistic Regression
-- Random Forest
-- K-Nearest Neighbors
-
-### Evaluation:
-- Accuracy
-- Confusion Matrix
-- Classification Report
+**🧰 Libraries Used**  
+`pandas`, `matplotlib`, `seaborn`, `wordcloud`
 
 ---
 
-## 📁 Project 2: Netflix Dataset – Cleaning, Analysis & Visualization
+## 🔷 Project 2: Instagram Fake, Spammer & Genuine Account Detection
 
-**Objective**: Explore, clean, and analyze Netflix content metadata to uncover insights about its content catalog.
+**🎯 Objective**  
+Build a machine learning model to classify Instagram accounts as fake, spam, or genuine based on account metadata and activity.
 
-### Key Steps:
-- Data cleaning (handling nulls, type casting)
-- Visual analysis using bar plots, heatmaps, and pie charts
-- Insights about:
-  - Most common genres
-  - Country-wise content production
-  - Content trends over time
-  - Movie vs TV Show distribution
+**📌 Key Features**
+- Exploratory Data Analysis (EDA)
+- Feature engineering (engagement rates, follower ratios)
+- Data preprocessing (label encoding, normalization)
+- Classification using Logistic Regression, KNN, Random Forest
+- Model evaluation using accuracy, confusion matrix
 
-### Tools Used:
-- Pandas, NumPy
-- Matplotlib, Seaborn
-
-### Outcome:
-An interactive and visual exploration of Netflix’s vast media collection.
+**🧰 Libraries Used**  
+`pandas`, `matplotlib`, `seaborn`, `sklearn`
 
 ---
 
-## 📁 Project 3: Unlocking YouTube Channel Performance Secrets
+## 🔺 Project 3: Unlocking YouTube Channel Performance Secrets
 
-**Objective**: Analyze YouTube channel performance data to uncover factors affecting video success.
+**🎯 Objective**  
+Analyze and model YouTube channel performance to identify key factors contributing to higher views, likes, and engagement.
 
-### Key Steps:
-- Preprocessing engagement metrics like likes, views, comments, etc.
-- Visualizing relationships (scatterplots, correlation heatmaps)
-- Classifying videos as successful or not based on features
-- Predictive modeling to understand engagement drivers
+**📌 Key Features**
+- In-depth analysis of video metadata (views, likes, duration, tags)
+- Correlation analysis and feature importance
+- Predictive modeling for engagement metrics
+- Trend visualization: publishing days, thumbnails, title length
 
-### Models Used:
-- Logistic Regression
-- Random Forest
-- K-Nearest Neighbors
+**🧰 Libraries Used**  
+`pandas`, `matplotlib`, `seaborn`, `sklearn`
 
-### Evaluation:
-- ROC-AUC
-- Accuracy
-- Confusion Matrix
+---
+
+## 🛠️ Tech Stack
+
+- **Languages**: Python  
+- **Tools**: Google Colab, Jupyter Notebook  
+- **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, WordCloud
 
 ---
 
@@ -80,11 +71,10 @@ An interactive and visual exploration of Netflix’s vast media collection.
 
 ---
 
-## 📦 How to Use
+## 🏁 How to Run
 
-You can open each notebook directly in Google Colab.
+1. Clone this repository or download the `.ipynb` notebooks.
+2. Open the notebooks using [Google Colab](https://colab.research.google.com/) or Jupyter Notebook.
+3. Upload datasets if prompted and execute cells sequentially.
 
-If running locally, install dependencies:
 
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
